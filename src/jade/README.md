@@ -8,4 +8,4 @@ Instructions
 - Use locale/*.json files for strings instead of hard coding text into the jade files
 - Name files appropriately and group related pages for larger projects
 
-[Documentation](https://loweproferotech.atlassian.net/wiki/display/IL/The+Jade+Standard)
+[Documentation](https://pugjs.org/language/iteration.html)

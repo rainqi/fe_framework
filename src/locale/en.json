@@ -1,5 +1,5 @@
 {
-  "app": {"name": "MullenLowe Profero <span class=\"text-yellow\">Tech</string>", "copyright": "&copy; 2016 MullenLowe Profero Ltd.", "description": "", "keywords": ""},
+  "app": {"name": "<span class=\"text-yellow\">Tech</string>", "copyright": "", "description": "", "keywords": ""},
   "titleStarterKit": "FE Web Starter Kit v3",
   "slogan": "Boilerplate and Tooling for FE development.",
   "forDetails": "See the README.md file of this repository for usage details.",
@@ -9,6 +9,6 @@
     {"title":"<a href=http://jade-lang.com/reference/>Jade</a> Support", "detail": "Never worry about unclosed HTML tags again. Jade also supports dynamic code and reusability."},
     {"title":"<a href=http://stylus-lang.com/>Stylus</a> + <a href=http://nibstyl.us/docs/>Nib</a> + <a href=http://kouto-swiss.io/>Kouto-Swiss Support</a>", "detail": "Expressive, dynamic, robust CSS. Includes automated prefixing and more."},
     {"title":"<a href=http://coffeescript.org/>CoffeeScript</a> Support", "detail": "Code quick, code concise; output 'clean' JavaScript/JQuery"},
-    {"title":"<a href=https://babeljs.io/docs/learn-es2015/>Babel (ES2015)</a> Support", "detail": "For the Babel lovers, we've got you."}
+    {"title":"<a href=https://babeljs.io/learn-es2015/>Babel (ES2015)</a> Support", "detail": "For the Babel lovers, we've got you."}
   ]
 }

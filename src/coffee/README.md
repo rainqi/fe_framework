@@ -25,4 +25,4 @@ $('.js-btn').click ->
 
 - Long functions should be split into bite sizes
 
-[Documentation](https://loweproferotech.atlassian.net/wiki/display/IL/The+JavaScript+Standard)
+[Documentation](http://coffee-script.org/)

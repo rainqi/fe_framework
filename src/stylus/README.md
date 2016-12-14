@@ -10,7 +10,7 @@ Instructions
 - Do not tightly couple styles based on location, code the css in terms of components. What do we mean by components? See here, (example only): [Ionic](http://ionicframework.com/docs/components/)
 - Document the stylus files so styleguide can be generated
 
-[Documentation](https://loweproferotech.atlassian.net/wiki/display/IL/The+Stylus+Standard)
+[Documentation](http://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/)
 
 Internet Explorer
 -------------

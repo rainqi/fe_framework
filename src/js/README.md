@@ -25,4 +25,5 @@ $('.js-btn').on('click', function(){
 
 - Long functions should be split into bite sizes
 
-[Documentation](https://loweproferotech.atlassian.net/wiki/display/IL/The+JavaScript+Standard)
+[Documentation](http://csswizardry.com/2016/11/nesting-your-bem/)
+[Documentation1](http://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/)
