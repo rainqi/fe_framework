@@ -16,10 +16,10 @@ Cloning FELab
 - If you are about to start a new project, then clone FELab as starter. Afterwards, for the clone, change the origin url in git to point to the url of the new project repository. (Remove this clone notice for the new project.)
 
 ```
-git clone https://$username@bitbucket.org/loweproferotech/fe-lab.git
+git clone https://$username@github.com/rainqi/fe_framework.git
 mv fe-lab $new-project-name # rename the directory
 cd $new-project-name
-git remote set-url origin https://$username@bitbucket.org/loweproferotech/$name.git
+git remote set-url origin https://$username@github.com/rainqi/$name.git
 ```
 
 - Create a new dev branch and start your work from there. Be sure to follow the README.md guides found in the various source directories.
@@ -60,19 +60,6 @@ gulp -maps
 gulp -lr -img
 gulp coffee -deploy
 ```
-
-Deploy
--------------
-You can deploy this to http://loweproferotech.bitbucket.org/bb-felab/ by running:
-```
-npm run deploy
-```
-You must set up (_)deploy.sh from the https://bitbucket.org/loweproferotech/loweproferotech.bitbucket.org repo.  
-If you downloaded _deploy.sh, change vars to:
-```
-projectName=bb-felab
-repo=https://{username}@bitbucket.org/loweproferotech/loweproferotech.bitbucket.org.git
-## set username OR use git@bitbucket.org:loweproferotech/loweproferotech.bitbucket.org.git as repo url
 ```
 
 HTTPS
@@ -98,7 +85,6 @@ Git Standards
   
 Coding Standards
 --------------
-- Before you do anything else, please make sure you have read this document: [Design Pattern Overview](https://loweproferotech.atlassian.net/wiki/display/IL/Design+Pattern+Overview)  
 - Use BEM for Stylus  
 - 2 spaces as a tab for JS, CSS, CoffeeScript, Stylus, Jade  
 - camelCase JS variable/function names  
@@ -139,4 +125,4 @@ Linters
 
 Docs
 ------------
-For details visit [FE Lab](https://loweproferotech.atlassian.net/wiki/display/IL/FE+Lab).
+
