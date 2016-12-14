@@ -1,0 +1,65 @@
+/**
+ * Content:
+ * `.c-content` - Main container 
+ * 
+ *     @example
+ *     div.c-content
+ *      div.c-content__bar
+ *       h1 Title
+ *      div.c-content__screen
+ */
+ 
+$bar = '&__bar'
+.c-content
+  width 100%
+  text-align center
+  background-color $col-dark-grey
+  color white
+  {$bar}
+    padding ($site-padding - 10) 0
+    min-height 60px
+    background-color white
+    color black
+    h1 
+      font-size 30px
+      padding 10px
+      background-color $col-dark-grey
+      color white
+  &__screen
+    background-color $col-profero-yellow
+    color black
+    padding $site-padding
+    padding-top $site-padding * 2
+    min-height $site-padding * 7
+    h1
+      font-size 60px 
+    h3
+      background-color $col-dark-grey
+      padding $site-padding - 10
+      color white
+      max-width 500px
+      margin auto
+      margin-top $site-padding
+      display block
+  &__details
+    width 70%
+    margin auto
+    color white
+  &__item
+    inline-block(top)
+    margin $site-padding
+    +tablet()
+      width 100%
+      margin $site-padding 0
+    h1 
+      font-size 30px
+      margin-bottom $site-padding - 10
+    p 
+      line-height 20px
+    a 
+      color white
+      text-decoration none
+      &:hover
+        text-decoration underline
+    li 
+      padding 5px 0

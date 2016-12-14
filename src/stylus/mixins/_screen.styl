@@ -1,0 +1,19 @@
+mobile()
+  @media $small
+    {block}
+
+tablet()
+  @media $medium
+    {block}
+    
+desktop()
+  @media(min-width:$desktop-min)
+    {block}
+
+retina()
+  @media(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)
+    {block}
+    
+bp(mod, size)
+  @media({mod}-width:size)
+    {block}
